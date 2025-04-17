@@ -71,5 +71,10 @@ files = earthaccess.download(results, "./{folder_name}")"""
     return f"Data downloaded in folder {folder_name}"
 
 
+@mcp.prompt()
+def download_analyze_global_sea_level() -> str:
+    return "I want you to download and do a short analysis of the Global Mean Sea Level Trend dataset in my notebook using the tools at your disposal for interacting with the notebook and the tool download_earth_data_granules for downloading the data."
+
+
 if __name__ == "__main__":
     mcp.run(transport="stdio")
