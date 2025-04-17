@@ -152,6 +152,12 @@ The server currently offers 1 tool:
   - `bounding_box` (tuple): (Optional) Bounding box in the format (lower_left_lon, lower_left_lat, upper_right_lon, upper_right_lat).
 - Returns: Cell output.
 
+### Prompts
+
+1. `download_analyze_global_sea_level`
+    - To ask for downloading and analyzing global sea level data in Jupyter.
+    - Returns: Prompt correctly formatted.
+
 ## Building
 
 You can build the Docker image it from source.
