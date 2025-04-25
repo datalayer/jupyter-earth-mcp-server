@@ -32,9 +32,9 @@ The following demo uses the [Earthdata MCP server](https://github.com/datalayer/
 Make sure you have the following installed. The collaboration package is needed as the modifications made on the notebook can be seen thanks to [Jupyter Real Time Collaboration](https://jupyterlab.readthedocs.io/en/stable/user/rtc.html).
 
 ```bash
-pip install jupyterlab jupyter-collaboration ipykernel
+pip install jupyterlab==4.4.1 jupyter-collaboration==4.0.2 ipykernel
 pip uninstall -y pycrdt datalayer_pycrdt
-pip install datalayer_pycrdt
+pip install datalayer_pycrdt==0.12.15
 ```
 
 Then, start JupyterLab with the following command.
