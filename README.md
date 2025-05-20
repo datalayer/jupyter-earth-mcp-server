@@ -13,7 +13,6 @@
 [![Github Actions Status](https://github.com/datalayer/jupyter-earth-mcp-server/workflows/Build/badge.svg)](https://github.com/datalayer/jupyter-earth-mcp-server/actions/workflows/build.yml)
 [![PyPI - Version](https://img.shields.io/pypi/v/jupyter-earth-mcp-server)](https://pypi.org/project/jupyter-earth-mcp-server)
 
-
 🌍 Jupyter Earth MCP Server is a [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server implementation that provides a set of tools for 🗺️ Geospatial analysis in 📓 Jupyter notebooks. 
 
 The following demo uses the [Earthdata MCP server](https://github.com/datalayer/earthdata-mcp-server) to search for datasets and data granules on NASA Earthdata, this MCP server to download the data in Jupyter and the [jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) to run further analysis.
@@ -34,7 +33,7 @@ Make sure you have the following installed. The collaboration package is needed 
 ```bash
 pip install jupyterlab==4.4.1 jupyter-collaboration==4.0.2 ipykernel
 pip uninstall -y pycrdt datalayer_pycrdt
-pip install datalayer_pycrdt==0.12.15
+pip install datalayer_pycrdt==0.12.17
 ```
 
 Then, start JupyterLab with the following command.
