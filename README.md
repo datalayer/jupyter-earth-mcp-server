@@ -4,7 +4,7 @@
   ~ BSD 3-Clause License
 -->
 
-> **This repositoriy is archived - Use https://github.com/datalayer/earthdata-mcp-server instead.**
+> **This repository is archived - Use https://github.com/datalayer/earthdata-mcp-server instead.**
 
 [![Datalayer](https://assets.datalayer.tech/datalayer-25.svg)](https://datalayer.io)
 
